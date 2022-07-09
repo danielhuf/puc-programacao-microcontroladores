@@ -1,0 +1,17 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.5">
+
+<p> Funções </p>
+<ul>
+    <li><a href="/desliga/0.0">Desligar</a></li>
+    <li><a href="/desliga/5.0">Dormir após 5 segundos</a></li>
+    <li><a href="/aumenta_volume">Volume +</a></li>
+    <li><a href="/diminui_volume">Volume -</a></li>
+    <li><a href="/mudo">Mudo</a></li>
+</ul>
+
+<p> Canais </p>
+<ul>
+    {%for i in range(0, len)%}
+        <li><a href="/muda_canal/{{text_lists[i]["código"]}}">{{text_lists[i]["nome"]}}</a></li>
+    {%endfor%}
+</ul>

@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "TV Brasil",
+        "código": "0201"
+    },
+    {
+        "nome": "Globoooo",
+        "código": "0401"
+    },
+    {
+        "nome": "Band",
+        "código": "0701"
+    },
+    {
+        "nome": "CNT",
+        "código": "0901"
+    },
+    {
+        "nome": "SBT",
+        "código": "1101"
+    },
+    {
+        "nome": "Record",
+        "código": "1301"
+    },
+    {
+        "nome": "NBR",
+        "código": "0202"
+    }
+]
